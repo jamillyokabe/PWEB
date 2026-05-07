@@ -9,13 +9,13 @@ function IMC(a, p){
     if (imc > 40.0){
         return ("Obesidade Grave");
 
-    } else if (imc > 30.0){
+    } else if (imc >= 30.0){
         return ("Obesidade");
 
-    } else if (imc > 25.0){
+    } else if (imc >= 25.0){
         return ("Sobrepeso");
 
-    } else if (imc > 18.5){
+    } else if (imc >= 18.5){
         return ("Normal");
     } else {
         return ("Magreza");
