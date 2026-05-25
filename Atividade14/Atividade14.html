@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+</head>
+<body>
+
+    <h1>Transformando o Texto</h1>
+
+    <form name="formulario1" id="formulario1">
+        Digite um texto:
+        <input type="text" name="idTexto" id="idTexto">
+        <br><br>
+
+        <input 
+            type="radio" 
+            name="opcao" 
+            id="idMaiuscula" 
+            onclick="transformarMaiuscula()"
+        >
+        <label for="idMaiuscula">Maiúscula</label>
+
+        <br><br>
+
+        <input 
+            type="radio" 
+            name="opcao" 
+            id="idMinuscula" 
+            onclick="transformarMinuscula()"
+        >
+        <label for="idMinuscula">Minúscula</label>
+    </form>
+
+    <script>
+        function transformarMaiuscula() {
+            let texto = document.forms.formulario1.elements.idTexto.value;
+
+            if (texto === "") {
+                alert("Digite um texto!");
+                document.forms.formulario1.elements.idTexto.focus();
+            } else {
+                document.forms.formulario1.elements.idTexto.value = texto.toUpperCase();
+            }
+        }
+
+        function transformarMinuscula() {
+            let texto = document.forms.formulario1.elements.idTexto.value;
+
+            if (texto === "") {
+                alert("Digite um texto!");
+                document.forms.formulario1.elements.idTexto.focus();
+            } else {
+                document.forms.formulario1.elements.idTexto.value = texto.toLowerCase();
+            }
+        }
+    </script>
+
+</body>
+</html>
