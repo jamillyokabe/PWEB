@@ -1,0 +1,20 @@
+{
+  "name": "site_fatec",
+  "version": "1.0.0",
+  "description": "Site da Fatec Sorocaba",
+  "license": "ISC",
+  "author": "Jamilly",
+  "type": "commonjs",
+  "main": "callback1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
