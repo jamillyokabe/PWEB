@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #d7fff5;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+.titulo {   
+    background-color: #a6c9cc;
+    border: 1px solid #CCC;
+    border-color: #CCC #999 #999 #CCC;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.introducao {
+    padding: 0px 20px 0px 20px;
+}
+
+.introducao img {
+    border: 1px solid #2a3c48;
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin: 10px 20px 10px 20px;
+}
+
+.conceito {
+    padding: 0px 20px 0px 20px;
+}
+
+.conceito h2 {
+    color: #2a3c48;
+}
+
+.praticas{
+    padding: 0px 20px 0px 20px;
+}
+
+.praticas div{
+    padding: 0px 20px;
+    background-color: #bde0d9;
+    border: 1px solid #284846;
+    margin: 10px;
+    float: left;
+    width: 40%;
+    min-height: 180px;
+}
+
+.praticas h2 {
+    color: #2a3c48;
+}
+
+.praticas::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ferramentas {
+    padding: 0px 20px 0px 20px;
+}
+
+.ferramentas h2 {
+    color: #2a3c48;
+}
+
+.beneficios {
+    padding: 0px 20px 0px 20px;
+}
+
+.beneficios h2 {
+    color: #2a3c48;
+}
+
+.exemplos {
+    padding: 0px 20px 0px 20px;
+}
+
+.exemplos h2 {
+    color: #2a3c48;
+}
+
+.exemplos img {
+    border: 1px solid #2a3c48;
+    float: left;
+    max-width: 20%;
+    height: auto;
+    margin: 10px 30px 10px 20px;
+}
+
+.conclusao {
+    padding: 0px 20px 0px 20px;
+}
+
+.conclusao h2 {
+    color: #2a3c48;
+}
+
+.referencia{
+    padding: 0px 20px 20px 20px;
+}
+.referencia h2 {
+    color: #2a3c48;
+}

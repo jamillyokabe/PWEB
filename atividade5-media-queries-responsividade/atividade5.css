@@ -1,0 +1,79 @@
+div {
+    height: 500px;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 420px) {
+    h2::before {
+        content: "Cinza";
+        color:rgb(56, 56, 56);
+    }
+    .cor {
+        background-color: rgb(173, 173, 173);
+    }
+}
+
+@media (min-width: 421px) and (max-width: 768px) {
+    h2::before {
+        content: "Laranja";
+        color:rgb(235, 125, 0);
+    }
+    .cor {
+        background-color: rgb(231, 169, 99);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h2::before {
+        content: "Rosa";
+        color:rgb(204, 0, 223);
+    }
+    .cor {
+        background-color: rgb(209, 113, 218);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+    h2::before {
+        content: "Salmão";
+        color:rgb(223, 118, 144);
+    }
+    .cor {
+        background-color: rgb(236, 165, 183);
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+    h2::before {
+        content: "Roxo";
+        color:rgb(105, 62, 221);
+    }
+    .cor {
+        background-color: rgb(157, 128, 238);
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+    h2::before {
+        content: "Amarelo";
+        color:rgb(235, 216, 49);
+    }
+    .cor {
+        background-color: rgb(252, 241, 141);
+    }
+}
+
+@media (min-width: 1921px) {
+    h2::before {
+        content: "Verde";
+        color:rgb(26, 156, 14);
+    }
+    .cor {
+        background-color: rgb(122, 226, 112);
+    }
+}

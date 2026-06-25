@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Chomsky";
+    src: url("fontes/Chomsky.otf");
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: #727272;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    font-family: "Chomsky";
+    font-size: 3rem;
+    margin: 0;
+    color: #ffffff;    
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    padding-top: 70px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(224, 224, 224);
+}
+
+.container-destaque{
+    max-width: 1000px;
+    width: 90%;
+    text-align: justify;
+    display: grid;
+    grid-gap: 20px;
+    row-gap: 10px;
+    margin: auto;
+    background-color: #e6e6e6;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'a a a'
+    'b c d';
+}
+
+.a {
+    grid-area: a;
+}
+
+.a h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.a p {
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+.a img {
+   display: block;
+   margin: auto;
+   border-radius: 5px;
+}
+
+.conteudo img{
+    border-radius: 5px;
+    width: 150px;
+    height: auto;    
+    float: left;
+    padding: 10px;
+}
+
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.container-mundo {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+.card-mundo {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container-mundo img {
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    }
+
+.card-mundo h2 {
+    font-size: 1.3rem;
+}
+.card-mundo p {
+    font-size: 1rem;
+}
+
+.conteudo-mundo {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.conteudo-mundo p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #727272;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}

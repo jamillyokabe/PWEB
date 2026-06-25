@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="exercicio15.css">
+</head>
+<body>
+    <form name="formulario1" id="formulario1" class="container" onsubmit="return validar();">
+        <h1>Formulário Principal</h1>
+        <label for="idNome">Nome:</label>
+        <br>
+        <input type="text" name="idNome" id="idNome">
+        <br><br>
+        <label for="idEmail">E-mail:</label>
+        <br>
+        <input type="email" name="idEmail" id="idEmail">
+        <br><br>
+        <label for="idComent">Comentário:</label>
+        <br>
+        <textarea name="idComent" id="idComent" rows="5" cols="40"></textarea>
+
+        <h2>Pesquisa</h2>
+        <p>Primeira vez nessa página?</p>
+        <div class="opcoes">
+            <input type="radio" name="resposta" id="idNao" value="nao" required>
+            <label for="idNao">Não</label>
+            <br>
+            <input type="radio" name="resposta" id="idSim" value="sim" required>
+            <label for="idSim">Sim</label>
+        </div>
+        
+        <br><br>
+
+        <div class="botoes"> 
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+        
+    </form>
+    <script src="exercicio15.js"></script>
+</body>
+</html>
